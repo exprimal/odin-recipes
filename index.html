@@ -4,21 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <h1>Odin Recipes</h1>
-            <li>
-                <a href="recipes/lasagna.html" target="_self" rel="internal">lasagna</a>
-            </li>
-            <li>
-                <a href="recipes/pizza.html" target="_self" rel="internal">Pizza</a>
-            </li>
-            <li>
-                <a href="recipes/potatochips.html" target="_self" rel="internal">Sweet Potato Chips</a>
-            </li>
-        </ul>
-    </nav>
-</body>
+    
+    <header>
+        <div class="titulo">
+            <h1 class="titulo--page">Odin Recipes</h1>
+        </div>
+    </header>
+
+
+        <main class="main">
+            <nav class="flex">
+                <ul class="flex-container">
+                    <li>
+                        <p>lasagna</p>
+                        <a href="recipes/lasagna.html" target="_self" rel="internal">
+                        <img class="img" src="recipes/lasanha.webp" alt="lasagna"></a>
+                    </li>
+                    <li>
+                        <p>Pizza</p>
+                        <a href="recipes/pizza.html" target="_self" rel="internal">
+                        <img class="img" src="recipes/pizza.webp" alt="pizza"></a>
+                    </li>
+                    <li>
+                        <p>Chips</p>
+                        <a href="recipes/potatochips.html" target="_self" rel="internal"> 
+                        <img class="img" src="recipes/chips.webp" alt="chips"></a>
+                    </li>
+                </ul>
+            </nav>
+            </body>
+        </main>
 </html>
